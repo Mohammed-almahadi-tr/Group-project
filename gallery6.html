@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Art Gallery Viewer</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+    }
+    .header-img {
+      width: 100%;
+      height: 350px;
+      padding-bottom: 20px;
+    }
+    .gallery-grid {
+      display: flex;
+      justify-content: left;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .gallery-grid img {
+      width: 250px;
+      height: 250px;
+      object-fit: cover;
+    }
+    p,h1 {
+      text-align: left;
+      padding-bottom: 20px;
+    }
+    span {
+      font-weight: bold;
+    }
+    address {
+      text-align: left;
+      padding-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+<!-- header image -->
+  <img src="/images/gallery-header.jpg" alt="Art Gallery Viewer Header" class="header-img">
+
+  <!-- adding title and infoirmation -->
+  <a class="header-link" href="proj1.html">
+    <img src="gallery-thin.png" alt="Back to main page">
+  </a>
+   <h1>Louvre Museum</h1>
+
+   <!-- <p>This Dutch national museum has on display 8,000 objects of art and history, from their total collection of 1 million objects from the years 12002000, among which are some masterpieces by Rembrandt, Frans Hals, and Johannes Vermeer. </p> -->
+
+   <hr>
+
+   <!-- address informatiojn -->
+    <h1>Address</h1>
+    <address><span>Louvre Museum </span><br>
+      Rue de Rivoli, 75001 <br>
+      Paris, France <br>
+      
+      <a href="http://www.louvre.fr/">http://www.louvre.fr/</a>
+
+      <br>
+      <br>
+      <a href="https://maps.app.goo.gl/ccTGyKLcUJgLfMzR6">View in map</a>
+      
+    </address>
+
+    <hr>
+    <!-- highlights section -->
+    <h1>highlights</h1>
+
+  <div class="gallery-grid">
+    <img src="/images/27.jpeg" alt="Gallery 1">
+    <img src="/images/28.jpeg" alt="Gallery 2">
+    <img src="/images/29.jpeg" alt="Gallery 3">
+    <img src="/images/30.jpeg" alt="Gallery 4">
+    
+  </div>
+
+</body>
+</html>
