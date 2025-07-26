@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Search</title>
+
+        <link rel="stylesheet" href="search.css">
+    </head>
+    <body>
+    <div id="container">
+
+        <!-- assignement 3 form things -->
+
+        <!-- disclaimer, i didnt know which to follow the image or the instructions because they're contradicting, i followed the image because its clearer than the instructions, kindly for the next assingement make the information more clear, thanks <3 -->
+
+        <h1>Advanced Art Work Search</h1>
+    <div>
+
+        <form action="">
+    <div id="part1">
+
+            <!-- search field -->
+        <input type="text" placeholder="search title" name="search-title">
+
+        <!-- radio btns -->
+        <label for="artist">Artist</label>
+        <input type="radio" id="artist" name="search-by" value="artist">
+        <label for="title">Title</label>
+        <input type="radio" id="title" name="search-by" value="title">
+        <label for="year">Year</label>
+        <input type="radio" id="year" name="search-by" value="year">
+        <label for="medium">Medium</label>
+
+
+        
+        <!-- dropdown menu 1 genre lest-->
+        <select name="genre-list" id="genreList">
+            <option value="Baroque">0 Baroque</option>
+            <option value="Renaissance">1 Renaissance</option>
+            <option value="Realism">2 Realism</option>
+            
+        </select>
+        
+        <!-- submit button -->
+        <button type="submit">Filter</button>
+    </div>
+        <!-- /////////////////////////////////// -->
+    <hr>
+    <div id="part2">
+
+                <!-- dropdown menu 1 Bulk Actions list-->
+        <select name="Bulk-Actions" id="bulkActions">
+            <option value="Archive">0 Archive</option>
+            <option value="Edit">1 Edit</option>
+            <option value="Delete">2 Delete</option>
+            <option value="Collection">3 Collection</option>
+        </select>
+
+        <!-- Apply to all button -->
+        <button type="button">Apply to all</button>
+    </div>
+        
+
+
+        </form>
+    </div>
+
+    <!-- <br> -->
+        <!-- table of paintings with select buttons on the firs coloumn -->
+
+        <h2>paintings</h2>
+
+    <table bgcolor="lightgray" id="paintingsTable" width="37%">
+        <thead bgcolor="darkcyan" style="color: white; " >
+            <tr>
+                <th></th>
+                <th>Title</th>
+                <th>Artist</th>
+                <th>Year</th>
+                <th>Genre</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- check box -->
+                <td ><input type="checkbox" name="index[]" value="10" /></td>
+                
+                <div id="titleAndImage">
+                    <td class="title-cell">
+    <img src="/images/1.jpeg" alt="Gallery 1" id="picForTable">
+    <span class="title-text">nature 1</span>
+</td>
+                </div>
+
+
+                <!-- artist -->
+                <td>Mohammed</td>
+
+                <!-- year -->
+                <td>2003</td>
+
+                <!-- genre -->
+                <td>photograph</td>
+
+                <!-- actions -->
+                <td>
+                    <button type="button"><img src="./images/pen.png" alt="pen" id="pen"></button>
+                    <button type="button"><img src="./images/archive.png" alt="archive" id="archive"></button>
+                    <button type="button"><img src="./images/delete.png" alt="delete" id="delete"></button>
+                </td>
+            </tr>
+            
+            <!-- <hr> -->
+
+                        <tr>
+                <!-- check box -->
+                <td ><input type="checkbox" name="index[]" value="10" /></td>
+                
+                <div id="titleAndImage">
+                    <td class="title-cell">
+    <img src="/images/2.jpeg" alt="Gallery 1" id="picForTable">
+    <span class="title-text">nature 2</span>
+</td>
+                </div>
+
+
+                <!-- artist -->
+                <td>mohand</td>
+
+                <!-- year -->
+                <td>2004</td>
+
+                <!-- genre -->
+                <td>imagenation</td>
+
+                <!-- actions -->
+                <td>
+                    <button type="button"><img src="./images/pen.png" alt="pen" id="pen"></button>
+                    <button type="button"><img src="./images/archive.png" alt="archive" id="archive"></button>
+                    <button type="button"><img src="./images/delete.png" alt="delete" id="delete"></button>
+                </td>
+            </tr>
+
+            <!-- <hr> -->
+
+                        <tr>
+                <!-- check box -->
+                <td ><input type="checkbox" name="index[]" value="10" /></td>
+                
+                <div id="titleAndImage">
+                    <td class="title-cell">
+    <img src="/images/3.jpeg" alt="Gallery 1" id="picForTable">
+    <span class="title-text">nature 3</span>
+</td>
+                </div>
+
+
+                <!-- artist -->
+                <td>Mahadi</td>
+
+                <!-- year -->
+                <td>2003</td>
+
+                <!-- genre -->
+                <td>AI photo</td>
+
+                <!-- actions -->
+                <td>
+                    <button type="button"><img src="./images/pen.png" alt="pen" id="pen"></button>
+                    <button type="button"><img src="./images/archive.png" alt="archive" id="archive"></button>
+                    <button type="button"><img src="./images/delete.png" alt="delete" id="delete"></button>
+                </td>
+            </tr>
+
+            <!-- <hr> -->
+
+                        <tr>
+                <!-- check box -->
+                <td ><input type="checkbox" name="index[]" value="10" /></td>
+                
+                <div id="titleAndImage">
+                    <td class="title-cell">
+    <img src="/images/4.jpeg" alt="Gallery 1" id="picForTable">
+    <span class="title-text">nature 4</span>
+</td>
+                </div>
+
+
+                <!-- artist -->
+                <td>swift</td>
+
+                <!-- year -->
+                <td>2002</td>
+
+                <!-- genre -->
+                <td>drawing</td>
+
+                <!-- actions -->
+                <td>
+                    <button type="button"><img src="./images/pen.png" alt="pen" id="pen"></button>
+                    <button type="button"><img src="./images/archive.png" alt="archive" id="archive"></button>
+                    <button type="button"><img src="./images/delete.png" alt="delete" id="delete"></button>
+                </td>
+            </tr>
+
+            <!-- <hr> -->
+
+            <tr>
+                <!-- check box -->
+                <td ><input type="checkbox" name="index[]" value="10" /></td>
+                
+                <div id="titleAndImage">
+                    <td class="title-cell">
+    <img src="/images/5.jpeg" alt="Gallery 1" id="picForTable">
+    <span class="title-text">nature 5</span>
+</td>
+                </div>
+
+
+                <!-- artist -->
+                <td>Abdallah</td>
+
+                <!-- year -->
+                <td>2001</td>
+
+                <!-- genre -->
+                <td>Iphone capture</td>
+
+                <!-- actions -->
+                <td>
+                    <button type="button"><img src="./images/pen.png" alt="pen" id="pen"></button>
+                    <button type="button"><img src="./images/archive.png" alt="archive" id="archive"></button>
+                    <button type="button"><img src="./images/delete.png" alt="delete" id="delete"></button>
+                </td>
+            </tr>
+
+            <!-- <hr> -->
+
+            <tr>
+                <!-- check box -->
+                <td ><input type="checkbox" name="index[]" value="10" /></td>
+                
+                <div id="titleAndImage">
+                    <td class="title-cell">
+    <img src="/images/6.jpeg" alt="Gallery 1" id="picForTable">
+    <span class="title-text">nature 6</span>
+</td>
+                </div>
+
+
+                <!-- artist -->
+                <td>Boii</td>
+
+                <!-- year -->
+                <td>2000</td>
+
+                <!-- genre -->
+                <td>picture</td>
+
+                <!-- actions -->
+                <td>
+                    <button type="button"><img src="./images/pen.png" alt="pen" id="pen"></button>
+                    <button type="button"><img src="./images/archive.png" alt="archive" id="archive"></button>
+                    <button type="button"><img src="./images/delete.png" alt="delete" id="delete"></button>
+                </td>
+            </tr>
+
+            
+
+        </tbody>
+
+
+    </div>
+    </table>
+    <!-- button to send the user back to the gallery -->
+    <div id="backToGallery">
+        <a href="proj1.html"><button type="button">Back to Gallery</button></a>
+     
+
+    </body>
+    </html>
