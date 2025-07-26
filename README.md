@@ -44,3 +44,7 @@ Each gallery page has a working link back to proj1.html.
 All Google Maps links open the correct location.
 
 There is no extra spacing between square gallery images on the main page.
+
+Contributors
+- Mohammed Almahadi Mohammed Adam (GitHub: Mohammed-almahadi-tr)
+- Abdallah Ismail Ahmad Elamin (GitHub: AbdallahElamin)
