@@ -1,0 +1,77 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+
+}
+
+/* Header Section */
+header {
+  width: 100%;
+  height: 350px;
+  padding-bottom: 20px;
+}
+
+/* Logo in top-left */
+.logo {
+  background-image: url(''); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 20px;
+  left: 60px;
+}
+
+/* Header Text Content */
+.header-content {
+  margin-top: 100px;
+  max-width: 600px;
+  text-align: left;
+}
+
+/* Address and Description */
+p, h1, address {
+  text-align: left;
+  padding: 0 20px 20px;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+span {
+  font-weight: bold;
+}
+
+/* Gallery Section */
+.gallery-grid {
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.gallery-grid img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  position: relative;
+}
+
+/* Optional Decorative Icons */
+.gallery-grid img::after {
+  content: '';
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+/* search icon */
+#search{
+  width: 50px;
+}
