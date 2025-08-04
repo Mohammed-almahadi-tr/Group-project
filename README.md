@@ -9,11 +9,9 @@ gallery1.html to gallery6.html – Individual gallery pages.
 
 gallery-header.jpg, gallery-thin.png – Header images.
 
-gallery1.png to gallery6.png – Square images for galleries.
+gallery1.jpg to gallery6.jpg – Square images for galleries.
 
-gallery1-1.jpg to gallery6-4.jpg – Highlight images per gallery.
-
-information.txt – Contains gallery details, including addresses and map coordinates.
+gallery6.jpg to gallery30.jpg – Highlight images per gallery.
 
 Instructions
 1. Main Page (proj1.html)
@@ -32,7 +30,7 @@ Display:
 
 A header image: gallery-thin.png (clickable, links back to proj1.html).
 
-Four highlight images, e.g., gallery1-1.jpg, gallery1-2.jpg, etc.
+Four highlight images, e.g., gallery1.jpg, gallery2.jpg, etc.
 
 Testing Tips
 Open proj1.html in a browser and check:
